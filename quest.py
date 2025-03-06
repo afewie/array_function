@@ -41,3 +41,11 @@ def test_funtcion():
 
     actual3 = filter_not_equal([1, 5, 2, 8, 3, 9, 4, 7, 6], 5)
     print(actual3)
+
+
+matrix = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+
+summ = matrix[0][0] + matrix[1][0] + matrix[2][1] + matrix[2][0] + matrix[2][1] + matrix[2][2]
+
+
+print(summ)
